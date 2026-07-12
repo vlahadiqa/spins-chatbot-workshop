@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Build Your First AI Chatbot — Informatic Engineering, UMSURA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-fixed"></div>
+<div class="blob blob-a"></div>
+<div class="blob blob-b"></div>
+<div class="blob blob-c"></div>
+<span class="spark" style="width:5px;height:5px; top:18%; left:22%; animation-delay:0s;"></span>
+<span class="spark" style="width:4px;height:4px; top:30%; left:76%; animation-delay:1.4s;"></span>
+<span class="spark" style="width:6px;height:6px; top:66%; left:14%; animation-delay:2.6s;"></span>
+<span class="spark" style="width:4px;height:4px; top:82%; left:70%; animation-delay:0.8s;"></span>
+<span class="spark" style="width:5px;height:5px; top:50%; left:90%; animation-delay:3.4s;"></span>
+<svg class="grain" width="100%" height="100%">
+  <filter id="noiseFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+</svg>
+
+<span class="asterisk" style="top:14%; left:8%; animation-delay:0s;">✳</span>
+<span class="asterisk" style="top:22%; left:88%; animation-delay:1.2s; font-size:16px;">✳</span>
+<span class="asterisk" style="top:62%; left:5%; animation-delay:2.1s; font-size:18px;">✳</span>
+<span class="asterisk" style="top:78%; left:92%; animation-delay:0.6s;">✳</span>
+<span class="asterisk" style="top:40%; left:50%; animation-delay:3s; font-size:14px;">✳</span>
+
+<div class="navwrap">
+  <nav>
+    <div class="nav-logos">
+      <img class="seal" src="assets/logo-himatika.png" alt="HIMATIKA — Informatics Student Association Seal" />
+      <span class="divider-dot"></span>
+      <img class="seal" src="assets/logo-muhammadiyah.png" alt="Universitas Muhammadiyah Surabaya Seal" />
+      <span class="divider-dot"></span>
+      <img class="wordmark" src="assets/logo-umsura.png" alt="UMSURA — Universitas Muhammadiyah Surabaya" />
+    </div>
+    <div class="nav-badge"><span class="dot"></span><span class="txt">Informatic Engineering</span></div>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="eyebrow"><span class="dot" style="background:var(--lime); box-shadow:0 0 10px var(--lime);"></span> Live at SPINS International School, Today</div>
+  <h1 class="headline">Build Your First AI Chatbot<span class="accent">with Groq API</span></h1>
+  <p class="subhead">A hands-on workshop by <b>Informatic Engineering, Universitas Muhammadiyah Surabaya</b>. Open the Google Colab notebook below and build your chatbot step by step with our mentors.</p>
+  <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+</section>
+
+<section class="card-section reveal">
+  <div class="glass-card">
+    <span class="pill">Hands-on Notebook</span>
+    <h2>Open the Colab Notebook</h2>
+    <div class="divider"></div>
+    <p>Scan the QR code with your phone, or tap the button to jump straight into the chatbot notebook on Google Colab.</p>
+    <div class="qr-wrap">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=380x380&color=0b2e1c&bgcolor=fdfff0&data=https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq%3Fusp%3Dsharing" alt="QR code linking to the Colab notebook" />
+    </div>
+    <br/>
+    <a class="cta-btn" href="https://colab.research.google.com/drive/1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq?usp=sharing#scrollTo=P_GozIvrogUw" target="_blank" rel="noopener">Open the Notebook ↗</a>
+    <div class="link-fallback">Can't open the link? Copy it: <a href="https://colab.research.google.com/drive/1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq?usp=sharing" target="_blank">colab.research.google.com/drive/1IvEOfi...</a></div>
+  </div>
+</section>
+
+<section class="steps-section reveal">
+  <div class="section-label">Quick Guide</div>
+  <h3>Four steps before we start coding together.</h3>
+  <ul class="step-list">
+    <li class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-text"><b>Open the notebook</b><span>Scan the QR code or tap "Open the Notebook" above using your school Google account.</span></div>
+    </li>
+    <li class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-text"><b>Save your own copy</b><span>Click File → Save a copy in Drive, so you have your own version and won't collide with your classmates.</span></div>
+    </li>
+    <li class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-text"><b>Add your Groq API key</b><span>Follow the mentor's instructions to paste your API key into the spot provided in the notebook.</span></div>
+    </li>
+    <li class="step-item">
+      <div class="step-num">4</div>
+      <div class="step-text"><b>Run each cell in order</b><span>Click the run button on every cell from top to bottom while following along with the mentor.</span></div>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <div class="footer-logos">
+    <img class="seal" src="assets/logo-himatika.png" alt="HIMATIKA Seal" />
+    <img class="seal" src="assets/logo-muhammadiyah.png" alt="Universitas Muhammadiyah Surabaya Seal" />
+    <img class="wordmark" src="assets/logo-umsura.png" alt="UMSURA" />
+  </div>
+  <p>Made by Informatic Engineering, Universitas Muhammadiyah Surabaya — for SPINS International School</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
