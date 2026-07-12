@@ -4,6 +4,8 @@ Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan d
 
 Landing page ini dirancang untuk memandu peserta workshop agar dapat mengakses Google Colab Notebook materi dengan mudah melalui QR Code atau tombol tautan langsung.
 
+🔗 **Live Website**: [spins-chatbot-workshop.vercel.app](https://spins-chatbot-workshop.vercel.app/)
+
 ---
 
 ## 🚀 Fitur Utama
