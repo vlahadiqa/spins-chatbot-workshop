@@ -1,6 +1,6 @@
-# AI Chatbot Workshop Landing Page — SPINS International School x UMSURA
+# AI Chatbot Workshop Landing Page — Informatics UMSURA
 
-Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan dalam kegiatan workshop **"Build Your First AI Chatbot with Groq API"**. Kegiatan ini diselenggarakan oleh **Program Studi Teknik Informatika, Universitas Muhammadiyah Surabaya** bersama **HIMATIKA** di **SPINS International School**.
+Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan dalam kegiatan workshop **"Build Your First AI Chatbot with Groq API"**. Kegiatan ini diselenggarakan oleh **Program Studi Teknik Informatika, Universitas Muhammadiyah Surabaya** bersama **HIMATIKA**.
 
 Landing page ini dirancang untuk memandu peserta workshop agar dapat mengakses Google Colab Notebook materi dengan mudah melalui QR Code atau tombol tautan langsung.
 
@@ -38,7 +38,7 @@ Anda dapat membuka dan menjalankan situs web ini secara lokal di komputer Anda:
 
 1.  **Unduh atau Clone Repositori**
     ```bash
-    git clone https://github.com/username/spins-chatbot-workshop.git
+    git clone https://github.com/vlahadiqa/spins-chatbot-workshop.git
     ```
 2.  **Masuk ke Direktori Proyek**
     ```bash
@@ -54,16 +54,15 @@ Anda dapat membuka dan menjalankan situs web ini secara lokal di komputer Anda:
 
 Petunjuk ringkas untuk peserta workshop sebelum mulai menulis kode bersama mentor:
 
-1.  **Buka Notebook**: Pindai QR Code di layar atau tekan tombol **"Open the Notebook"**. Pastikan masuk menggunakan akun Google sekolah/institusi.
+1.  **Buka Notebook**: Pindai QR Code di layar atau tekan tombol **"Open the Notebook"**. Pastikan masuk menggunakan akun Google Anda.
 2.  **Simpan Salinan**: Pilih menu **File** → **Save a copy in Drive** (Simpan salinan di Drive) agar Anda memiliki berkas latihan pribadi.
 3.  **Tambahkan Groq API Key**: Ikuti panduan mentor untuk mendapatkan kunci API dari Groq dan tempelkan ke kolom yang disediakan di Colab.
 4.  **Jalankan Kode**: Klik tombol *Run* pada setiap blok kode (*cell*) secara berurutan dari atas ke bawah sambil mengikuti instruksi mentor.
 
 ---
 
-## 🏫 Penyelenggara & Kemitraan
+## 🏫 Penyelenggara
 
-Workshop ini sukses terlaksana berkat kolaborasi antara:
+Kegiatan workshop ini diselenggarakan oleh:
 - **Teknik Informatika, Universitas Muhammadiyah Surabaya**
 - **HIMATIKA UMSurabaya**
-- **SPINS International School**
