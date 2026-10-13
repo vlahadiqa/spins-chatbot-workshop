@@ -1,6 +1,6 @@
 # AI Chatbot Workshop Landing Page — Informatics UMSURA
 
-Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan dalam kegiatan workshop **"Build Your First AI Chatbot with Groq API"**. Kegiatan ini diselenggarakan oleh **Program Studi Teknik Informatika, Universitas Muhammadiyah Surabaya** bersama **HIMATIKA**.
+Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan dalam kegiatan workshop **"Build Your First AI Chatbot with Groq API"**. Kegiatan ini diselenggarakan oleh **Program Studi Teknik Informatika, Universitas Muhammadiyah Surabaya** bersama **HIMATIFA**.
 
 Landing page ini dirancang untuk memandu peserta workshop agar dapat mengakses Google Colab Notebook materi dengan mudah melalui QR Code atau tombol tautan langsung.
 
@@ -26,7 +26,7 @@ Berikut adalah berkas-berkas utama dalam repositori ini:
 *   [`styles.css`](styles.css) - Lembar gaya CSS kustom untuk tata letak, skema warna, tipografi, efek *glassmorphism*, dan animasi partikel latar belakang.
 *   [`script.js`](script.js) - Logika JavaScript sederhana yang mengamati elemen saat masuk ke *viewport* untuk memicu animasi masuk (*fade-in*).
 *   [`assets/`](assets/) - Folder penyimpanan aset visual berupa logo resmi penyelenggara:
-    *   `logo-himatika.png` (Himpunan Mahasiswa Teknik Informatika)
+    *   `logo-himatifa.png` (Himpunan Mahasiswa Teknik Informatika)
     *   `logo-muhammadiyah.png` (Perserikatan Muhammadiyah)
     *   `logo-umsura.png` (Universitas Muhammadiyah Surabaya)
 
@@ -65,4 +65,4 @@ Petunjuk ringkas untuk peserta workshop sebelum mulai menulis kode bersama mento
 
 Kegiatan workshop ini diselenggarakan oleh:
 - **Teknik Informatika, Universitas Muhammadiyah Surabaya**
-- **HIMATIKA UMSurabaya**
+- **HIMATIFA UMSurabaya**
