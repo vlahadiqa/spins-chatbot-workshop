@@ -1,10 +1,13 @@
 # AI Chatbot Workshop Landing Page — Informatics UMSURA
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq?usp=sharing#scrollTo=P_GozIvrogUw)
+
 Repositori ini berisi kode sumber untuk landing page interaktif yang digunakan dalam kegiatan workshop **"Build Your First AI Chatbot with Groq API"**. Kegiatan ini diselenggarakan oleh **Program Studi Teknik Informatika, Universitas Muhammadiyah Surabaya** bersama **HIMATIFA**.
 
 Landing page ini dirancang untuk memandu peserta workshop agar dapat mengakses Google Colab Notebook materi dengan mudah melalui QR Code atau tombol tautan langsung.
 
-🔗 **Live Website**: [spins-chatbot-workshop.vercel.app](https://spins-chatbot-workshop.vercel.app/)
+🔗 **Live Website**: [spins-chatbot-workshop.vercel.app](https://spins-chatbot-workshop.vercel.app/)  
+📓 **Google Colab Notebook**: [Open in Google Colab](https://colab.research.google.com/drive/1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq?usp=sharing#scrollTo=P_GozIvrogUw)
 
 ---
 
@@ -54,7 +57,7 @@ Anda dapat membuka dan menjalankan situs web ini secara lokal di komputer Anda:
 
 Petunjuk ringkas untuk peserta workshop sebelum mulai menulis kode bersama mentor:
 
-1.  **Buka Notebook**: Pindai QR Code di layar atau tekan tombol **"Open the Notebook"**. Pastikan masuk menggunakan akun Google Anda.
+1.  **Buka Notebook**: Buka tautan [Google Colab Notebook](https://colab.research.google.com/drive/1IvEOfi_5G8i-hT8BUKYL0mdoruDPXHHq?usp=sharing#scrollTo=P_GozIvrogUw), atau pindai QR Code di layar / tekan tombol **"Open the Notebook"** pada website. Pastikan masuk menggunakan akun Google Anda.
 2.  **Simpan Salinan**: Pilih menu **File** → **Save a copy in Drive** (Simpan salinan di Drive) agar Anda memiliki berkas latihan pribadi.
 3.  **Tambahkan Groq API Key**: Ikuti panduan mentor untuk mendapatkan kunci API dari Groq dan tempelkan ke kolom yang disediakan di Colab.
 4.  **Jalankan Kode**: Klik tombol *Run* pada setiap blok kode (*cell*) secara berurutan dari atas ke bawah sambil mengikuti instruksi mentor.
